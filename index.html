@@ -73,7 +73,16 @@ header{
 .cal-nav-btn{color:var(--muted);font-size:18px;line-height:1;padding:.1rem .3rem;border-radius:4px;border:none;background:none;cursor:pointer;transition:color .1s}
 .cal-nav-btn:hover{color:var(--ink)}
 .cal-month-label{font-size:13px;font-weight:600;color:var(--ink)}
-.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);grid-template-rows:20px;grid-auto-rows:26px;gap:0;align-items:center}
+.cal-grid{
+  display:grid;
+  grid-template-columns:repeat(7,24px);
+  grid-template-rows:20px;
+  grid-auto-rows:26px;
+  column-gap:4px;
+  row-gap:0;
+  justify-content:center;
+  align-items:center;
+}
 .cal-dow{font-size:9px;font-weight:600;color:var(--light);display:flex;align-items:center;justify-content:center;line-height:1}
 .cal-day{font-size:11px;display:flex;align-items:center;justify-content:center;border-radius:5px;color:var(--ink-2);cursor:default;line-height:1;position:relative}
 .cal-day.has-event{cursor:pointer;font-weight:600;color:var(--blue)}
