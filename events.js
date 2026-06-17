@@ -22,14 +22,14 @@ const EVENTS = [
   category: "Group",
   date: "2026-06-18",
   time: "7:00 PM",
-  location: "Journey Church Main Hall",
-  address: "400 Maitland Ave, Altamonte Springs, FL",
+  location: "The Lighthouse",
+  address: "400 Maitland Ave, Altamonte Springs, FL 32701",
   description: `This Thursday, join Purpose Driven Singles for our first deep dive into Grace for the Journey!
 
 Rubi will be leading us through "How Grace Speaks" speaking to one another, speaking the way God would want us to speak, and communicating God's way.
 
 Come prepared to take notes and soak in a powerful message.`,
-  foodNote: `🍜 Food: Asian Cuisine
+  foodNote: `Asian Cuisine
 
 Group funds will provide a variety of main dish options. Please bring a side dish, dessert, or drinks to share.`,
   afterpartyNote: `Afterparty: 10:00 PM – 12:00 AM
